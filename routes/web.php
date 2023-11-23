@@ -11,6 +11,11 @@ Route::get('/', function () {
     return view('landingpage/index');
 })->name('home');
 
+Route::get('/register', [AuthController::class, 'showRegistrationForm'])->name('register');
+Route::post('/register', [AuthController::class, 'register']);
+Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [AuthController::class, 'login']);
+
 Route::get('/portofolios', [PortofolioController::class, 'index'])->name('portofolios.index');
 Route::get('/portofolios/{id}', [PortofolioController::class, 'show'])->name('portofolios.show');
 Route::get('/allportofolio', [AllPortofolioController::class, 'index'])->name('allportofolio');

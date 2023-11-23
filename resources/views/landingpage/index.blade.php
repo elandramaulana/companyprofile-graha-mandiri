@@ -51,7 +51,7 @@
           <li><a class="nav-link scrollto" href="#services">Layanan</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#testimonials">Testimoni</a></li>
-          <li><a class="getstarted scrollto" href="#about">Konsultasi Gratis <i class="fas fa-phone"></i></a></li>
+          <li><a class="getstarted scrollto" href="https://wa.me/+628126701178">Konsultasi Gratis <i class="fas fa-phone"></i></a></li>
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -68,7 +68,7 @@
           <h1>Bersama kami, <br>Bangun Impianmu Hari ini</h1>
         </div>
         <div style="margin-top: 30px;" class="col-lg-12 text-center">
-            <a class="btn btn-danger align-middle" href="#">Call To Action</a>
+            <a class="btn btn-danger align-middle" href="https://wa.me/+628126701178">Call To Action</a>
         </div>
     </div>
 
@@ -552,7 +552,7 @@
               <h1>Wujudkan bangunan idamanmu sekarang!</h1>
             </div>
             <div class="col-sm-3">
-               <a class="konsul-btn btn btn-danger align-middle" href="#">Konsultasi Gratis</a>
+               <a class="konsul-btn btn btn-danger align-middle" href="https://wa.me/+628126701178">Konsultasi Gratis</a>
             </div>
           </div>
         </div>

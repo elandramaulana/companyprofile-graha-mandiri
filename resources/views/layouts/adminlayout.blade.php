@@ -79,12 +79,18 @@
                 </a>
             </li>
 
-            <li style="margin-top: 100%;" class="nav-item active">
-                <a class="nav-link" href="{{ route('kategori.index') }}">
-                    <i class="fas fa-sign-out-alt"></i>
-                    <span>Logout</span>
-                </a>
-            </li>
+            
+
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <li style="margin-top: 100%;" class="nav-item active">
+                  <button class="nav-link logout-button" type="submit"> 
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                  </button>
+                </li>
+            </form>
+
+           
 
 
             <!-- Divider -->

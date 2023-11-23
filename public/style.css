@@ -153,4 +153,15 @@
 }
 
 
+#sidebar-admin .logout-button{
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: inherit; /* Menyesuaikan warna teks dengan warna default tautan */
+    cursor: pointer; /* Menunjukkan kursor saat diarahkan ke tombol */
+    padding-left: 30px;
+    
+}
+
 
